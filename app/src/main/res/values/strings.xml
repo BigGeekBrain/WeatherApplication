@@ -1,25 +1,23 @@
 <resources>
-    <string name="app_name" translatable="false">Weather Application</string>
-
-        <string-array name="cities">
-            <item>Madrid</item>
-            <item>Barcelona</item>
-            <item>Lima</item>
-            <item>Prague</item>
-            <item>London</item>
-            <item>Birmingham</item>
-            <item>Hamburg</item>
-            <item>Rome</item>
-        </string-array>
-    
-        <string name="search">Search</string>
-        <string name="showText">enter city</string>
-        <string name="temperature">Temperature</string>
-        <string name="fellingTemperature">Felling Temperature</string>
-        <string name="windSpeed">Wind speed</string>
-        <string name="humidity">Humidity</string>
-        <string name="windDirection">Wind direction</string>
-        <string name="pressure">Pressure</string>
-        <string name="rainfall">Rainfall</string>
-
+    <string name="app_name">GeoQuester</string>
+    <string-array name="cities">
+        <item></item>
+        <item>Madrid</item>
+        <item>Barcelona</item>
+        <item>Lima</item>
+        <item>Prague</item>
+        <item>London</item>
+        <item>Birmingham</item>
+        <item>Hamburg</item>
+        <item>Rome</item>
+    </string-array>
+    <string name="search">Search</string>
+    <string name="showText">enter city</string>
+    <string name="temperature">Temperature</string>
+    <string name="fellingTemperature">Felling Temperature</string>
+    <string name="windSpeed">Wind speed</string>
+    <string name="humidity">Humidity</string>
+    <string name="windDirection">Wind direction</string>
+    <string name="pressure">Pressure</string>
+    <string name="rainfall">Rainfall</string>
 </resources>

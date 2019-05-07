@@ -13,11 +13,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
-        <AutoCompleteTextView
-            android:id="@+id/cityTextView"
-            android:layout_width="230dp"
-            android:layout_height="wrap_content"
-            android:hint="@string/showText"/>
+    <AutoCompleteTextView
+        android:id="@+id/cityTextView"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/showText"/>
 
         <Button
             android:id="@+id/search_button"
@@ -26,37 +26,40 @@
             android:layout_height="wrap_content" />
     </LinearLayout>
 
-    <TextView
+    <CheckBox
         android:id="@+id/temperature"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/temperature"/>
-    <TextView
+
+    <CheckBox
         android:id="@+id/fellingTemperature"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/fellingTemperature"/>
-    <TextView
+    <CheckBox
         android:id="@+id/pressure"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/pressure"/>
-    <TextView
+    <CheckBox
         android:id="@+id/humidity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/humidity"/>
-    <TextView
+    <CheckBox
         android:id="@+id/rainfall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/rainfall"/>
-    <TextView
+
+    <CheckBox
         android:id="@+id/windSpeed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/windSpeed"/>
-    <TextView
+
+    <CheckBox
         android:id="@+id/windDirection"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
