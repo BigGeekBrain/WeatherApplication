@@ -1,16 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
-    android:gravity="center_horizontal"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <AutoCompleteTextView
+            android:id="@+id/cityTextView"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/showText"/>
+
+        <Button
+            android:id="@+id/search_button"
+            android:text="@string/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
 
     <TextView
+        android:id="@+id/temperature"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/weather"
-        android:padding="8dp"/>
+        android:text="@string/temperature"/>
+    <TextView
+        android:id="@+id/fellingTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fellingTemperature"/>
+    <TextView
+        android:id="@+id/pressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pressure"/>
+    <TextView
+        android:id="@+id/humidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/humidity"/>
+    <TextView
+        android:id="@+id/rainfall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rainfall"/>
+    <TextView
+        android:id="@+id/windSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/windSpeed"/>
+    <TextView
+        android:id="@+id/windDirection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/windDirection"/>
+
 
 </LinearLayout>
+
