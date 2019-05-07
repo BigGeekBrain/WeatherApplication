@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">GeoQuester</string>
     <string-array name="cities">
-        <item></item>
         <item>Madrid</item>
         <item>Barcelona</item>
         <item>Lima</item>

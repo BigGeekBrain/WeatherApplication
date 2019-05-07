@@ -10,4 +10,13 @@
         <item name="android:textSize">12dp</item>
     </style>
 
+    <style name="MainTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">#2a3547</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="SearchBar">
+        <item name="android:textSize">20dp</item>
+    </style>
+
 </resources>
