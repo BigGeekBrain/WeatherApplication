@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">WeatherApplication</string>
+    <string name="degree">&#8451;</string>
+    <string name="m_s"><sub>м/с</sub></string>
+    <string name="weather_image_description">description</string>
+    <string name="Humidity">Влажность</string>
+    <string name="weather_cloudy">Cloudy</string>
+    <string name="weather_sunny">Sunny</string>
+    <string name="weather">weather</string>
+    <string name="add_city">add city</string>
+
+    <string-array name="cities">
+        <item>Moscow:Russia</item>
+        <item>Limassol:Cyprus</item>
+        <item>Madrid:Spain</item>
+        <item>Rome:Italy</item>
+        <item>Paris:France</item>
+        <item>Canberra:Australia</item>
+        <item>Minsk:Belarus</item>
+        <item>Brasilia:Brazil</item>
+        <item>Ottawa:Canada</item>
+        <item>Cairo:Egypt</item>
+        <item>Dublin:Ireland</item>
+        <item>Tokyo:Japan</item>
+        <item>Lima:Peru</item>
+    </string-array>
+
+    <string-array name="additional_cities">
+        <item>Yekaterinburg:Russia</item>
+        <item>Saint-Petersburg:Russia</item>
+        <item>Novosibirsk:Russia</item>
+    </string-array>
+
+
+
+
+
+
+</resources>
