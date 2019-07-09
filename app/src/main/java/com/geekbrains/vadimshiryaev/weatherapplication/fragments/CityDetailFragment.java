@@ -102,7 +102,7 @@ public class CityDetailFragment extends Fragment {
 
         dataView.setText(formatData(currentDay.getDate()));
         weatherDescriptionView.setText(currentDay.getWeather());
-        detailView.setText(getResources().getString(R.string.Humidity) + " " + currentDay.getHumidity() + "% " + currentDay.getWindDirection() + " " + currentDay.getWindSpeed() + getResources().getString(R.string.m_s));
+        detailView.setText(getResources().getString(R.string.humidity) + " " + currentDay.getHumidity() + "% " + currentDay.getWindDirection() + " " + currentDay.getWindSpeed() + getResources().getString(R.string.m_s));
         degreeView.setText(currentDay.getTemperatureDegree());
         if (currentDay.getWeather().equals(getResources().getString(R.string.weather_cloudy))) {
             weatherView.setImageResource(R.drawable.ic_cloudy_large);
@@ -120,7 +120,7 @@ public class CityDetailFragment extends Fragment {
         this.dayId = day.getId();
         dataView.setText(day.getStringDate());
         weatherDescriptionView.setText(day.getWeather());
-        detailView.setText(getResources().getString(R.string.Humidity) + " " + day.getHumidity() + "% " + day.getWindDirection() + " " + day.getWindSpeed() + getResources().getString(R.string.m_s));
+        detailView.setText(getResources().getString(R.string.humidity) + " " + day.getHumidity() + "% " + day.getWindDirection() + " " + day.getWindSpeed() + getResources().getString(R.string.m_s));
         degreeView.setText(day.getTemperatureDegree());
         if (day.getWeather().equals(getResources().getString(R.string.weather_cloudy))) {
             weatherView.setImageResource(R.drawable.ic_cloudy_large);

@@ -12,6 +12,10 @@
             android:id="@+id/nav_language"
             android:icon="@drawable/ic_language"
             android:title="@string/language"/>
+        <item
+            android:id="@+id/nav_sensors"
+            android:icon="@drawable/ic_sensors"
+            android:title="@string/sensors"/>
     </group>
 
     <item android:title="@string/communicate">
@@ -28,6 +32,14 @@
                 android:id="@+id/nav_about_us"
                 android:icon="@drawable/ic_contact"
                 android:title="@string/about_us"/>
+            <item
+                android:id="@+id/nav_call_us"
+                android:icon="@drawable/ic_call"
+                android:title="@string/call"/>
+            <item
+                android:id="@+id/nav_send_sms_us"
+                android:icon="@drawable/ic_sms"
+                android:title="@string/send_sms"/>
         </menu>
     </item>
 
