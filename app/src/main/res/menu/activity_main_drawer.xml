@@ -28,6 +28,14 @@
                 android:id="@+id/nav_about_us"
                 android:icon="@drawable/ic_contact"
                 android:title="@string/about_us"/>
+            <item
+                android:id="@+id/nav_call_us"
+                android:icon="@drawable/ic_call"
+                android:title="@string/call"/>
+            <item
+                android:id="@+id/nav_send_sms_us"
+                android:icon="@drawable/ic_sms"
+                android:title="@string/send_sms"/>
         </menu>
     </item>
 

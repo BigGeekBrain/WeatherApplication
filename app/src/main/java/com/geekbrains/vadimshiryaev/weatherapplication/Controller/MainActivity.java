@@ -118,6 +118,16 @@ public class MainActivity extends AppCompatActivity implements CityListFragment.
                 Snackbar.make(addButton, R.string.about_us, Snackbar.LENGTH_LONG).show();
                 break;
                 default: break;
+            case R.id.nav_call_us:
+                Intent call = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:+79826612458"));
+                call.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(call);
+                break;
+            case R.id.nav_send_sms_us:
+                Intent sms = new Intent(Intent.ACTION_SENDTO, Uri.parse("smsto:+79826612458"));
+                sms.putExtra("sms_body", "Hello, ");
+                startActivity(sms);
+                break;
         }
 
         drawer.closeDrawer(GravityCompat.START);
