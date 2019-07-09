@@ -100,7 +100,7 @@ public class CityDetailFragment extends Fragment {
             return;
         }
 
-        dataView.setText(data(currentDay.getDate()));
+        dataView.setText(formatData(currentDay.getDate()));
         weatherDescriptionView.setText(currentDay.getWeather());
         detailView.setText(getResources().getString(R.string.Humidity) + " " + currentDay.getHumidity() + "% " + currentDay.getWindDirection() + " " + currentDay.getWindSpeed() + getResources().getString(R.string.m_s));
         degreeView.setText(currentDay.getTemperatureDegree());
@@ -111,7 +111,7 @@ public class CityDetailFragment extends Fragment {
         }
     }
 
-    private String data(Date date){
+    private String formatData(Date date){
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("E, d MMMM, H:m", Locale.ENGLISH);
         return simpleDateFormat.format(date);
     }
@@ -127,6 +127,5 @@ public class CityDetailFragment extends Fragment {
         } else {
             weatherView.setImageResource(R.drawable.ic_sunny_large);
         }
-//        degreeView.setText("100");
     }
 }
