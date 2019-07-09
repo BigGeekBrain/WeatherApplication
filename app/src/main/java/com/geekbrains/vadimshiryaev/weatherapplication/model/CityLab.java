@@ -60,17 +60,13 @@ public class CityLab {
         return citiesMap.get(id);
     }
 
-    public void removeCity(UUID id) {
-        for (int i = 0; i < cities.size(); i++) {
-            if (cities.get(i).getId().equals(id)) {
-                cities.remove(cities.get(i));
-            }
-        }
-
+    public int removeCity() {
+        cities.remove(cities.size() - 1);
+        return cities.size();
     }
 
 
-    public void addCity() {
+    public int addCity() {
         String[] additionalCitiesNames = context.getResources().getStringArray(R.array.additional_cities);
         City city = new City();
         String[] cityNameAndCountry = additionalCitiesNames[random.nextInt(additionalCitiesNames.length)].split(":");
@@ -81,6 +77,7 @@ public class CityLab {
         city.setWeekMap(weekLab.getDayMap());
         cities.add(city);
         citiesMap.put(city.getId(), city);
+        return cities.size();
     }
 
 

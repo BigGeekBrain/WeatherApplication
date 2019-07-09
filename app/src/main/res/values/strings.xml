@@ -8,6 +8,24 @@
     <string name="weather_sunny">Sunny</string>
     <string name="weather">weather</string>
     <string name="add_city">add city</string>
+    <string name="application_label">application label</string>
+    <string name="header_app_name">Weather Forecast</string>
+    <string name="geekbrains_course">geekbrains.course@geekbrains.com</string>
+    <string name="about_us">About us</string>
+    <string name="settings">Settings</string>
+    <string name="more_apps">More apps</string>
+    <string name="rate_app">Rate app</string>
+    <string name="language">Language</string>
+    <string name="communicate">communicate</string>
+    <string name="city">City</string>
+    <string name="navigation_drawer_open">navigation drawer open</string>
+    <string name="navigation_drawer_close">navigation drawer close</string>
+    <string name="add">add</string>
+    <string name="search">search</string>
+    <string name="edit">edit</string>
+    <string name="remove">remove last</string>
+    <string name="send_sms">Send sms</string>
+    <string name="call">Call</string>
 
     <string-array name="cities">
         <item>Moscow:Russia</item>
