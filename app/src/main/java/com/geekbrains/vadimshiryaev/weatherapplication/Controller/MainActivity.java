@@ -30,6 +30,7 @@ import com.geekbrains.vadimshiryaev.weatherapplication.R;
 import com.geekbrains.vadimshiryaev.weatherapplication.fragments.CityDetailFragment;
 import com.geekbrains.vadimshiryaev.weatherapplication.fragments.CityListFragment;
 import com.geekbrains.vadimshiryaev.weatherapplication.fragments.CityWeatherForecastListFragment;
+import com.geekbrains.vadimshiryaev.weatherapplication.fragments.SensorsDialogFragment;
 import com.geekbrains.vadimshiryaev.weatherapplication.model.City;
 import com.geekbrains.vadimshiryaev.weatherapplication.model.CityLab;
 
@@ -107,6 +108,9 @@ public class MainActivity extends AppCompatActivity implements CityListFragment.
                 break;
             case R.id.nav_language:
                 Snackbar.make(addButton, R.string.language, Snackbar.LENGTH_LONG).show();
+                break;
+            case R.id.nav_sensors:
+                new SensorsDialogFragment().show(getSupportFragmentManager(), "");
                 break;
             case R.id.nav_rate_app:
                 Snackbar.make(addButton, R.string.rate_app, Snackbar.LENGTH_LONG).show();

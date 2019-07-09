@@ -12,6 +12,10 @@
             android:id="@+id/nav_language"
             android:icon="@drawable/ic_language"
             android:title="@string/language"/>
+        <item
+            android:id="@+id/nav_sensors"
+            android:icon="@drawable/ic_sensors"
+            android:title="@string/sensors"/>
     </group>
 
     <item android:title="@string/communicate">

@@ -3,7 +3,8 @@
     <string name="degree">&#8451;</string>
     <string name="m_s"><sub>м/с</sub></string>
     <string name="weather_image_description">description</string>
-    <string name="Humidity">Влажность</string>
+    <string name="humidity">humidity</string>
+    <string name="temperature">temperature</string>
     <string name="weather_cloudy">Cloudy</string>
     <string name="weather_sunny">Sunny</string>
     <string name="weather">weather</string>
@@ -26,6 +27,12 @@
     <string name="remove">remove last</string>
     <string name="send_sms">Send sms</string>
     <string name="call">Call</string>
+    <string name="ok">Ok</string>
+    <string name="humidity_sensor_description">Humidity sensor value =</string>
+    <string name="temperature_sensor_description">Temperature sensor value =</string>
+    <string name="absent_sensor">Your devise haven\'t</string>
+    <string name="sensor">sensor</string>
+    <string name="sensors">Phone sensors</string>
 
     <string-array name="cities">
         <item>Moscow:Russia</item>

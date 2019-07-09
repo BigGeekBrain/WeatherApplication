@@ -163,7 +163,7 @@ public class CityListFragment extends Fragment implements SwipeRefreshLayout.OnR
             switch (viewType) {
                 case TYPE_LARGE:
                     countryView.setText(city.getCountry());
-                    detailsView.setText(getResources().getString(R.string.Humidity) + " " + currentDay.getHumidity() + "% " + currentDay.getWindDirection());
+                    detailsView.setText(getResources().getString(R.string.humidity) + " " + currentDay.getHumidity() + "% " + currentDay.getWindDirection());
                     degreeView.setText(String.valueOf(currentDay.getTemperatureDegree()));
                     windSpeedView.setText(currentDay.getWindSpeed() + getResources().getString(R.string.m_s));
                     weatherView.setImageDrawable(currentDay.getWeatherLabel());
